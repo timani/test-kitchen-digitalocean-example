@@ -1,0 +1,28 @@
+E, [2014-12-31T14:40:51.686402 #7544] ERROR -- Kitchen: ------Exception-------
+E, [2014-12-31T14:40:51.686479 #7544] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-12-31T14:40:51.686504 #7544] ERROR -- Kitchen: Message: Kitchen YAML file /home/timani/Ruby/kitty/.kitchen.yml does not exist.
+E, [2014-12-31T14:40:51.686524 #7544] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-12-31T14:40:51.686542 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-12-31T14:40:51.686561 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-12-31T14:40:51.686579 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-12-31T14:40:51.686598 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-12-31T14:40:51.686616 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-12-31T14:40:51.686634 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-12-31T14:40:51.686652 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-12-31T14:40:51.686672 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-12-31T14:40:51.686714 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command/list.rb:31:in `call'
+E, [2014-12-31T14:40:51.686734 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-12-31T14:40:51.686753 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:81:in `list'
+E, [2014-12-31T14:40:51.686771 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-12-31T14:40:51.686789 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-12-31T14:40:51.686807 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-12-31T14:40:51.686825 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-12-31T14:40:51.686843 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-12-31T14:40:51.686862 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-12-31T14:40:51.686880 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-12-31T14:40:51.686898 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-12-31T14:40:51.686916 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/bin/kitchen:23:in `load'
+E, [2014-12-31T14:40:51.686934 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/bin/kitchen:23:in `<main>'
+E, [2014-12-31T14:40:51.686961 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-12-31T14:40:51.686988 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-12-31T14:40:51.687009 #7544] ERROR -- Kitchen: ----------------------
