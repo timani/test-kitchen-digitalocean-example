@@ -8,11 +8,11 @@ This is based on the test-kitchen-digitalocean driver by that uses [API V2](http
 
 The libraries that are required have been included in the Gemfile within the project. However you will need access to additional information such as the Access Key and SSH Key ID from your Digital Ocean Account. 
 
-> [DigitalOcean](https://digitalocean.com/) account.
-> Digital Ocean - Access Key 
-> Digital Ocean - SSH Key ID
-> Chef-zero 
-> Test Kitchen Digital Ocean Driver
+- [DigitalOcean](https://digitalocean.com/) account.
+- Digital Ocean - Access Key 
+- Digital Ocean - SSH Key ID
+- Chef-zero 
+- Test Kitchen Digital Ocean Driver
 
 # Installation and Setup
 
