@@ -110,3 +110,6 @@ No instances for regex `default-centos-64', try running `kitchen list'
 I, [2014-12-31T15:49:46.337049 #8945]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
 I, [2014-12-31T15:49:46.469019 #8945]  INFO -- Kitchen: -----> Creating <default-centos-6-5-x64>...
 I, [2014-12-31T15:50:59.876613 #8945]  INFO -- Kitchen: -----> Kitchen is finished. (1m13.54s)
+I, [2014-12-31T19:06:34.026241 #11661]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-12-31T19:06:34.264548 #11661]  INFO -- Kitchen: -----> Converging <default-centos-6-5-x64>...
+I, [2014-12-31T19:07:12.540867 #11661]  INFO -- Kitchen: -----> Kitchen is finished. (0m38.51s)
