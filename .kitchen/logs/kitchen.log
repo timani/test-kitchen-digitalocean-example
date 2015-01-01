@@ -26,3 +26,87 @@ E, [2014-12-31T14:40:51.686934 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/r
 E, [2014-12-31T14:40:51.686961 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
 E, [2014-12-31T14:40:51.686988 #7544] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
 E, [2014-12-31T14:40:51.687009 #7544] ERROR -- Kitchen: ----------------------
+I, [2014-12-31T15:31:24.010618 #8607]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-12-31T15:31:24.136853 #8607]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+E, [2014-12-31T15:31:25.125948 #8607] ERROR -- Kitchen: ------Exception-------
+E, [2014-12-31T15:31:25.126159 #8607] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-12-31T15:31:25.126371 #8607] ERROR -- Kitchen: Message: Failed to complete #create action: [You specified an invalid image for Droplet creation.]
+E, [2014-12-31T15:31:25.126460 #8607] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-12-31T15:31:25.126514 #8607] ERROR -- Kitchen: Class: DropletKit::FailedCreate
+E, [2014-12-31T15:31:25.126589 #8607] ERROR -- Kitchen: Message: You specified an invalid image for Droplet creation.
+E, [2014-12-31T15:31:25.126650 #8607] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-12-31T15:31:25.126711 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/droplet_kit-1.1.2/lib/droplet_kit/mappings/error_mapping.rb:16:in `fail_with'
+E, [2014-12-31T15:31:25.126774 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/droplet_kit-1.1.2/lib/droplet_kit/resources/droplet_resource.rb:16:in `block (3 levels) in <class:DropletResource>'
+E, [2014-12-31T15:31:25.126837 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/action_invoker.rb:19:in `instance_exec'
+E, [2014-12-31T15:31:25.126900 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/action_invoker.rb:19:in `handle_response'
+E, [2014-12-31T15:31:25.126963 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/action_invoker.rb:14:in `call'
+E, [2014-12-31T15:31:25.127087 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/method_factory.rb:16:in `block in method_for_action'
+E, [2014-12-31T15:31:25.127155 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/kitchen-digitalocean-0.8.3/lib/kitchen/driver/digitalocean.rb:126:in `create_server'
+E, [2014-12-31T15:31:25.127208 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/kitchen-digitalocean-0.8.3/lib/kitchen/driver/digitalocean.rb:53:in `create'
+E, [2014-12-31T15:31:25.127260 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-12-31T15:31:25.127311 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-12-31T15:31:25.127362 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-12-31T15:31:25.127413 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-12-31T15:31:25.127463 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-12-31T15:31:25.127514 #8607] ERROR -- Kitchen: /home/timani/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2014-12-31T15:31:25.127565 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-12-31T15:31:25.127614 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-12-31T15:31:25.127664 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:252:in `create_action'
+E, [2014-12-31T15:31:25.127716 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-12-31T15:31:25.127766 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-12-31T15:31:25.127816 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-12-31T15:31:25.127867 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:108:in `create'
+E, [2014-12-31T15:31:25.127935 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-12-31T15:31:25.128005 #8607] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-12-31T15:31:25.128059 #8607] ERROR -- Kitchen: ----------------------
+I, [2014-12-31T15:48:05.550966 #8868]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-12-31T15:48:05.690135 #8868] ERROR -- Kitchen: 
+No instances for regex `default-centos-6-5-x64', try running `kitchen list'
+
+
+I, [2014-12-31T15:48:12.675944 #8873]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-12-31T15:48:12.802765 #8873] ERROR -- Kitchen: 
+No instances for regex `centos-6-5-x64', try running `kitchen list'
+
+
+I, [2014-12-31T15:48:31.811329 #8885]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-12-31T15:48:31.940590 #8885]  INFO -- Kitchen: -----> Creating <default-centos-64>...
+E, [2014-12-31T15:48:33.270242 #8885] ERROR -- Kitchen: ------Exception-------
+E, [2014-12-31T15:48:33.270332 #8885] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-12-31T15:48:33.270379 #8885] ERROR -- Kitchen: Message: Failed to complete #create action: [You specified an invalid image for Droplet creation.]
+E, [2014-12-31T15:48:33.270422 #8885] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-12-31T15:48:33.270461 #8885] ERROR -- Kitchen: Class: DropletKit::FailedCreate
+E, [2014-12-31T15:48:33.270501 #8885] ERROR -- Kitchen: Message: You specified an invalid image for Droplet creation.
+E, [2014-12-31T15:48:33.270540 #8885] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-12-31T15:48:33.270579 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/droplet_kit-1.1.2/lib/droplet_kit/mappings/error_mapping.rb:16:in `fail_with'
+E, [2014-12-31T15:48:33.270619 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/droplet_kit-1.1.2/lib/droplet_kit/resources/droplet_resource.rb:16:in `block (3 levels) in <class:DropletResource>'
+E, [2014-12-31T15:48:33.270660 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/action_invoker.rb:19:in `instance_exec'
+E, [2014-12-31T15:48:33.270700 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/action_invoker.rb:19:in `handle_response'
+E, [2014-12-31T15:48:33.270741 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/action_invoker.rb:14:in `call'
+E, [2014-12-31T15:48:33.270781 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/resource_kit-0.1.1/lib/resource_kit/method_factory.rb:16:in `block in method_for_action'
+E, [2014-12-31T15:48:33.270821 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/kitchen-digitalocean-0.8.3/lib/kitchen/driver/digitalocean.rb:126:in `create_server'
+E, [2014-12-31T15:48:33.270861 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/kitchen-digitalocean-0.8.3/lib/kitchen/driver/digitalocean.rb:53:in `create'
+E, [2014-12-31T15:48:33.270901 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-12-31T15:48:33.270941 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-12-31T15:48:33.271004 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-12-31T15:48:33.271048 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-12-31T15:48:33.271090 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-12-31T15:48:33.271130 #8885] ERROR -- Kitchen: /home/timani/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2014-12-31T15:48:33.271186 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-12-31T15:48:33.271229 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-12-31T15:48:33.271268 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:252:in `create_action'
+E, [2014-12-31T15:48:33.271307 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-12-31T15:48:33.271346 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-12-31T15:48:33.271385 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-12-31T15:48:33.271424 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:108:in `create'
+E, [2014-12-31T15:48:33.271463 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-12-31T15:48:33.271502 #8885] ERROR -- Kitchen: /home/timani/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-12-31T15:48:33.271540 #8885] ERROR -- Kitchen: ----------------------
+I, [2014-12-31T15:49:33.717750 #8937]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-12-31T15:49:33.849269 #8937] ERROR -- Kitchen: 
+No instances for regex `default-centos-64', try running `kitchen list'
+
+
+I, [2014-12-31T15:49:46.337049 #8945]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-12-31T15:49:46.469019 #8945]  INFO -- Kitchen: -----> Creating <default-centos-6-5-x64>...
+I, [2014-12-31T15:50:59.876613 #8945]  INFO -- Kitchen: -----> Kitchen is finished. (1m13.54s)
